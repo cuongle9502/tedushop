@@ -48,11 +48,40 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\Auditable.cs" />
+    <Compile Include="Abstract\IAuditable.cs" />
+    <Compile Include="Moders\ApplicationGroup.cs" />
+    <Compile Include="Moders\ApplicationRole.cs" />
+    <Compile Include="Moders\ApplicationRoleGroup.cs" />
+    <Compile Include="Moders\ApplicationUser.cs" />
+    <Compile Include="Moders\ApplicationUserGroup.cs" />
+    <Compile Include="Moders\ContactDetail.cs" />
+    <Compile Include="Moders\Error.cs" />
+    <Compile Include="Moders\Feedback.cs" />
+    <Compile Include="Moders\Footer.cs" />
+    <Compile Include="Moders\Menu.cs" />
+    <Compile Include="Moders\MenuGroup.cs" />
+    <Compile Include="Moders\Order.cs" />
+    <Compile Include="Moders\OrderDetail.cs" />
+    <Compile Include="Moders\Page.cs" />
+    <Compile Include="Moders\Post.cs" />
+    <Compile Include="Moders\PostCategory.cs" />
+    <Compile Include="Moders\PostTag.cs" />
+    <Compile Include="Moders\Product.cs" />
+    <Compile Include="Moders\ProductCategory.cs" />
+    <Compile Include="Moders\ProductTag.cs" />
+    <Compile Include="Moders\Slide.cs" />
+    <Compile Include="Moders\SupportOnline.cs" />
+    <Compile Include="Moders\SystemConfig.cs" />
+    <Compile Include="Moders\Tag.cs" />
+    <Compile Include="Moders\UserManager.cs" />
+    <Compile Include="Moders\VisitorStatistic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
